@@ -285,5 +285,22 @@ class ArrayTools{
 
     }
 
+    /**
+     * 数组分页可以用内部函数array_splice()完成
+     * 该函数从数组中移除选定的元素，并用新元素取代它。函数也将返回被移除元素的数组。
+     * array_splice(array,start,length,array)
+     * 实例：page：第几页 pageSize：每页大小
+     if(isset($data['page']))
+     {
+        if(!isset($data['pageSize']))
+        {
+           $data['pageSize']=5;
+        }
+        $user_ids=array_slice($user_ids,$data['page']*$data['pageSize'],$data['pageSize']);
+     }
+     */
+
+
+
 
 }
