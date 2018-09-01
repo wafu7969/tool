@@ -132,6 +132,8 @@ class ArrayTools{
     /**
      * 多个数组的笛卡尔积
      * @param unknown_type $data
+     * 笛卡尔乘积是指在数学中，两个集合X和Y的笛卡尓积（Cartesian product），又称直积，表示为X×Y，第一个对象是X的成员而第二个对象是Y的所有可能有序对的其中一个成员 [3]  。
+     * 假设集合A={a, b}，集合B={0, 1, 2}，则两个集合的笛卡尔积为{(a, 0), (a, 1), (a, 2), (b, 0), (b, 1), (b, 2)}。
      */
     function combineDika() {
 
