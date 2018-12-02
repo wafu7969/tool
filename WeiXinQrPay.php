@@ -6,6 +6,7 @@
  * Time: 13:08
  * 微信二维码支付
  * 神灯智能短信微信充值
+ * Thinkphp 5.0
  */
 
 namespace app\admin\controller;
